@@ -17,9 +17,6 @@ def ft_cut_between_char(char, str):
 
         if count == 1:
             return -1
-
-
-
         else:
             for i in range(ft_len(str)):
                 if str[i] == char:
@@ -37,7 +34,5 @@ def ft_cut_between_char(char, str):
                 w += str[r]
                 r += 1
             return w
-
-
     else:
         return -2
