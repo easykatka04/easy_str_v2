@@ -41,3 +41,4 @@ def ft_cut_between_char(char,str):
 
     else:
         return -2
+print(ft_cut_between_char('3','123456789034563434'))
