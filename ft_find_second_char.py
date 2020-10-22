@@ -8,6 +8,8 @@ def ft_find_second_char(char,str):
     count = 0
     x = 0
     r = 0
+    if char == "":
+        return -2    
     if char in str:
         for i in range(ft_len(str)):
             if str[i] == char:
